@@ -1,0 +1,1 @@
+2018-08-14 20:00:42.032 [main] INFO  com.zz.pail.sqlSession.PailsExcutor - sql:select * from user where id = ?,param:1
