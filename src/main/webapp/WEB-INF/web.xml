@@ -7,7 +7,7 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
          version="3.0">
   <servlet>
-    <servlet-name>MyPailsMVC</servlet-name>
+    <servlet-name>MyPatisSimple</servlet-name>
     <servlet-class>com.zz.pail.servlet.PailsDispatcherServlet</servlet-class>
     <init-param>
       <param-name>contextConfigLocation</param-name>
@@ -16,7 +16,7 @@
     <load-on-startup>1</load-on-startup>
   </servlet>
   <servlet-mapping>
-    <servlet-name>MyPailsMVC</servlet-name>
+    <servlet-name>MyPatisSimple</servlet-name>
     <url-pattern>/*</url-pattern>
   </servlet-mapping>
 

@@ -5,13 +5,13 @@ public class Function {
     private String funcName;
     private String sql;
     private Object resultType;
-    private String parameterType;
+    private Object parameterType;
 
-    public String getParameterType() {
+    public Object getParameterType() {
         return parameterType;
     }
 
-    public void setParameterType(String parameterType) {
+    public void setParameterType(Object parameterType) {
         this.parameterType = parameterType;
     }
 

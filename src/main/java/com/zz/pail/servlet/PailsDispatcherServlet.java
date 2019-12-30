@@ -1,7 +1,7 @@
 package com.zz.pail.servlet;
 
-import com.zz.pail.annotation.PailsController;
-import com.zz.pail.annotation.PailsRequestMapping;
+import com.zz.pail.annotation.MyController;
+import com.zz.pail.annotation.MyRequestMapping;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
@@ -175,7 +175,7 @@ public class PailsDispatcherServlet extends HttpServlet{
             try {
                 //把类搞出来,反射来实例化(只有加@MyController需要实例化)
                 Class<?> clazz =Class.forName(className);
-                if(clazz.isAnnotationPresent(PailsController.class)){
+                if(clazz.isAnnotationPresent(MyController.class)){
                     ioc.put(toLowerFirstWord(clazz.getSimpleName()),clazz.newInstance());
                 }else{
                     continue;
@@ -197,22 +197,22 @@ public class PailsDispatcherServlet extends HttpServlet{
         try {
             for (Entry<String, Object> entry: ioc.entrySet()) {
                 Class<? extends Object> clazz = entry.getValue().getClass();
-                if(!clazz.isAnnotationPresent(PailsController.class)){
+                if(!clazz.isAnnotationPresent(MyController.class)){
                     continue;
                 }
 
                 //拼url时,是controller头的url拼上方法上的url
                 String baseUrl ="";
-                if(clazz.isAnnotationPresent(PailsRequestMapping.class)){
-                    PailsRequestMapping annotation = clazz.getAnnotation(PailsRequestMapping.class);
+                if(clazz.isAnnotationPresent(MyRequestMapping.class)){
+                    MyRequestMapping annotation = clazz.getAnnotation(MyRequestMapping.class);
                     baseUrl=annotation.value();
                 }
                 Method[] methods = clazz.getMethods();
                 for (Method method : methods) {
-                    if(!method.isAnnotationPresent(PailsRequestMapping.class)){
+                    if(!method.isAnnotationPresent(MyRequestMapping.class)){
                         continue;
                     }
-                    PailsRequestMapping annotation = method.getAnnotation(PailsRequestMapping.class);
+                    MyRequestMapping annotation = method.getAnnotation(MyRequestMapping.class);
                     String url = annotation.value();
 
                     url =(baseUrl+"/"+url).replaceAll("/+", "/");

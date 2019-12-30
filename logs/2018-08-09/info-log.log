@@ -1,4 +1,4 @@
-2018-08-09 19:21:11.642 [main] INFO  com.zz.pail.sqlSession.PailsExcutor - sql:Logger[com.zz.pail.sqlSession.PailsExcutor]
-2018-08-09 19:21:43.746 [main] INFO  com.zz.pail.sqlSession.PailsExcutor - sql:select * from user where id = ?
-2018-08-09 19:28:35.939 [main] INFO  com.zz.pail.sqlSession.PailsExcutor - sql:select * from user where id = ?
-2018-08-09 19:30:21.878 [main] INFO  com.zz.pail.sqlSession.PailsExcutor - sql:select * from user where id = ?,param:1
+2018-08-09 19:21:11.642 [main] INFO  com.zz.pail.sqlSession.MyExcutor - sql:Logger[com.zz.pail.sqlSession.MyExcutor]
+2018-08-09 19:21:43.746 [main] INFO  com.zz.pail.sqlSession.MyExcutor - sql:select * from user where id = ?
+2018-08-09 19:28:35.939 [main] INFO  com.zz.pail.sqlSession.MyExcutor - sql:select * from user where id = ?
+2018-08-09 19:30:21.878 [main] INFO  com.zz.pail.sqlSession.MyExcutor - sql:select * from user where id = ?,param:1

@@ -1,0 +1,10 @@
+2019-12-30 09:33:41.777 [main] INFO  com.zz.pail.sqlSession.MyExcutor - sql:select * from user where id = ?,param:1
+2019-12-30 09:33:58.126 [main] INFO  com.zz.pail.sqlSession.MyExcutor - sql:select * from user where id = ?,param:1
+2019-12-30 09:36:29.484 [main] INFO  com.zz.pail.sqlSession.MyExcutor - sql:select * from user where id = ?,param:1
+2019-12-30 13:29:37.608 [main] INFO  com.zz.pail.sqlSession.MyExcutor - sql:select * from user where id = ?,param:User{id='null', username='zhaozhang', password='123456'}
+2019-12-30 13:33:30.811 [main] INFO  com.zz.pail.sqlSession.MyExcutor - sql:select * from user where id = ?,param:User{id='null', username='zhaozhang', password='123456'}
+2019-12-30 13:36:39.376 [main] INFO  com.zz.pail.sqlSession.MyExcutor - sql:select * from user where id = ?,param:User{id='null', username='zhaozhang', password='123456'}
+2019-12-30 13:46:59.320 [main] INFO  com.zz.pail.sqlSession.MyExcutor - sql:select * from user where id = ?,param:User{id='null', username='zhaozhang', password='123456'}
+2019-12-30 13:47:55.403 [main] INFO  com.zz.pail.sqlSession.MyExcutor - sql:select * from user where id = ?,param:User{id='null', username='zhaozhang', password='123456'}
+2019-12-30 15:00:58.171 [main] INFO  com.zz.pail.sqlSession.MyExcutor - sql:select * from user where id = ?,param:1
+2019-12-30 15:08:10.757 [main] INFO  com.zz.pail.sqlSession.MyExcutor - sql:select * from user where id = ?,param:1

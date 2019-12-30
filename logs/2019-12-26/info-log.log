@@ -1,0 +1,10 @@
+2019-12-26 19:58:56.430 [main] INFO  com.zz.pail.sqlSession.MyExcutor - sql:select * from user where id = ?,param:1
+2019-12-26 20:00:03.940 [main] INFO  com.zz.pail.sqlSession.MyExcutor - sql:select * from user where id = ?,param:1
+2019-12-26 20:03:20.475 [main] INFO  com.zz.pail.sqlSession.MyExcutor - sql:select * from user where id = ?,param:1
+2019-12-26 20:21:13.782 [main] INFO  com.zz.pail.sqlSession.MyExcutor - sql:select * from user where id = ?,param:1
+2019-12-26 20:23:24.905 [main] INFO  com.zz.pail.sqlSession.MyExcutor - sql:select * from user where id = ?,param:1
+2019-12-26 20:37:04.124 [main] INFO  com.zz.pail.sqlSession.MyExcutor - sql:select * from user where id = ?,param:1
+2019-12-26 20:37:07.732 [main] INFO  com.zz.pail.sqlSession.MyExcutor - sql:select * from user where id = ?,param:1
+2019-12-26 20:37:50.063 [main] INFO  com.zz.pail.sqlSession.MyExcutor - sql:select * from user where id = ?,param:1
+2019-12-26 20:38:12.820 [main] INFO  com.zz.pail.sqlSession.MyExcutor - sql:select * from user where id = ?,param:1
+2019-12-26 20:39:09.877 [main] INFO  com.zz.pail.sqlSession.MyExcutor - sql:select * from user where id = ?,param:1

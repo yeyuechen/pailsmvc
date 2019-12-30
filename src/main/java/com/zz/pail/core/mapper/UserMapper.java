@@ -5,5 +5,7 @@ import com.zz.pail.bean.User;
 
 public interface UserMapper {
 
-    public User getUserById(String id);
+    public<T> T getUserById(String id);
+
+    public int insert(User user);
 }
